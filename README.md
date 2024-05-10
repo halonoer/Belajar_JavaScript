@@ -75,5 +75,20 @@ operator perbandingan / comparison
 
 boolean : true dan false
 
+operator logika 
+- && : AND
+- || : OR
+- !  : NOT
 
+operator string 
++
 
+penjelasan tanda + ada 2 fungsi 
+- jika operatornya angka maka menjadi operator aritmatika
+- jika operatornya string/tulisan maka menjadi operator string
+
+operator typeof (operand)
+
+operator kondisional
+operator untuk pengecekan dimana kondisi true / false
+(kondisi) ? benar : salah
