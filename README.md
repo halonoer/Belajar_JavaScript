@@ -132,5 +132,45 @@ object           |  undefined
 arrays           |  null
 functions        |  NaN
 
-undefined =  
-null      =
+undefined
+null
+
+variabel : sebuah 'tempat / wadah' yang memiliki nama, yang digunakan untuk menyimpan nilai
+
+deklarasi    = mendaftarkan variabel ke dalam lingkup yang sesuai
+inisialisasi = menyediakan memori untuk variabel
+assignment   = menetapkan nilai yang spesifik kedalam variabel
+
+var x; // deklarasi & inisialisasi
+x = 20; // assignment
+
+deklarasi variabel 
+var 
+let
+const
+
+var 
+var <nama variabel> 
+- ga boleh pake spasi, jika panjang maka dikasih _ / $ / panjang disambung
+- boleh memakai angka tetapi tidak bileh ditaruh didepan
+- nama awal huruf kecil dan selanjut huruf besar : haloSayaDariTadi // Camel Case
+- keyword & reserved word
+
+shorthand
+
+dari ini
+var nama;
+var umur;
+var lulus;
+
+nama = "noer";
+umur = 31;
+lulus = true;
+
+menjadi ini
+var nama = "noer",
+var umur = 31, 
+lulus = true;
+
+variable scope
+
