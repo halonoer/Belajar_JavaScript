@@ -50,28 +50,28 @@ unary : membutuhkan 1 operator
 ternary : membutuhkan 3 operator
 
 operator penugasan
-x += y
-x -= y
-x *= y
-x /= y
-x %= y
+- x += y
+- x -= y
+- x *= y
+- x /= y
+- x %= y
 
 sama saja dengan 
-x = x + y
-x = x - y
-x = x * y
-x = x / y
-x = x % y
+- x = x + y
+- x = x - y
+- x = x * y
+- x = x / y
+- x = x % y
 
 operator perbandingan / comparison
-==  : sama dengan 
-!=  : tidak sama dengan
-=== : strict sama dengan 
-!== : strict tidak sama dengan
->   : lebih besar dari
-<   : lebih kecil dari
->=  : lebih besar sama dengan
-<=  : lebih kecil sama dengan
+- ==  : sama dengan 
+- !=  : tidak sama dengan
+- === : strict sama dengan 
+- !== : strict tidak sama dengan
+- >   : lebih besar dari
+- <   : lebih kecil dari
+- >=  : lebih besar sama dengan
+- <=  : lebih kecil sama dengan
 
 boolean : true dan false
 
