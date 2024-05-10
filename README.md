@@ -91,3 +91,46 @@ operator typeof (operand)
 operator kondisional
 operator untuk pengecekan dimana kondisi true / false
 (kondisi) ? benar : salah
+
+
+tipe strinng 
+palin text "" / ''
+"no" "jalan"
+
+escape = character
+- \0     : karakter null
+- \'     : '
+- \"     : "
+- \\     : \
+- \n     : new line / baris baru
+- \t     : tab
+- \b     : backspace
+- \uXXXX : unicode
+
+unicode 
+\u00A9 : c
+\u00AE : r
+dll
+
+concatenation 
+"Noer" = "noer"
+false
+
+.length : menghitung panjang string
+"Noer".length : 4
+
+Bolean : sebuah tipe data yang digunakan untuk merepresentasikan logika true atau false
+
+truthy : menghasilkan nilai true
+falsy  : menghasilkan nilai false
+
+truthy           |  falsy
+true             |  false
+non-zero number  |  0
+"string"         |  ""
+object           |  undefined
+arrays           |  null
+functions        |  NaN
+
+undefined =  
+null      =
