@@ -24,13 +24,13 @@ angka
 - bilangan negatif
 
 jangan pernah mengawali angka dengan 0, 
-022 maka dianggap sebagai bilangan oktal
-0xFF akan dianggap sebagai bilangan hexadesimal
+- 022 maka dianggap sebagai bilangan oktal
+- 0xFF akan dianggap sebagai bilangan hexadesimal
 
 angka spesial
-Infinity = 2 / 0
--Infinity = -2 / 0
-NaN = 100 / "apel"
+- Infinity = 2 / 0
+- -Infinity = -2 / 0
+- NaN = 100 / "apel"
 
 operator
 operator dalam javasrcipt adalah sebuah simbol yang digunakan untuk melakukan operasi
