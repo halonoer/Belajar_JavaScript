@@ -174,3 +174,37 @@ lulus = true;
 
 variable scope
 
+script
+- internal : js didalam dokumen
+- external : js diluar dokumen
+
+console.log = mencetak pesan
+
+popup box / dialog box
+- alert = 
+  alert('hello world!');
+- prompt = 
+  prompt('masukkan nama:');
+  , contoh : 
+  var nama = prompt('masukkan nama : ');
+  alert('nama');
+- confirm = 
+  confirm('kamu yakin??');
+  , contoh :
+  var tes = confirm('kamu yakin??');
+  if( tes === true ) {
+    alert('user menekan OK!');
+  } else {
+    alert('user menekan CANCEL');
+  }
+  
+contoh semua popup : 
+  alert('selamat datang..');
+  var lagi = true;
+     while(lagi === true) {
+     var nama = prompt('masukkan nama : ');
+     alert('halo ' + nama);
+     lagi = confirm('coba lagi?');
+    }
+  alert('terima kasih..');
+  
