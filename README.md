@@ -199,7 +199,7 @@ popup box / dialog box
   }
   
 contoh semua popup : 
-  alert('selamat datang..');
+ - alert('selamat datang..');
   var lagi = true;
      while(lagi === true) {
      var nama = prompt('masukkan nama : ');
@@ -208,3 +208,38 @@ contoh semua popup :
     }
   alert('terima kasih..');
   
+control flow
+normal flow = apabila kita memiliki lebih dari satu statement, maka statement tersebut akan dieksekusi dari atas ke bawah atau dari kiri ke kanan.
+
+contoh : 
+- var angka = prompt('masukkan angka :');
+  alert('angka yang anda masukkan adalah : ' + angka);
+
+control flow 
+- pengulangan
+- pengkodisian
+
+1. pengulangan (loop/iteration) : 
+- for
+- while
+- do while
+
+contoh : 
+   alert('mulai');
+   for(var i = 0; i < 5; i++){
+   alert('hello world!');
+   }
+   alert('selesai');
+
+2. pengkondisian (percabangan) :
+- of
+- if ... else
+- if ... else if ... else
+
+contoh : 
+var angka prompt('masukkan angka :');
+if( angka % 2 === 0 ) {
+  alert(angka + ' adalah bilangan GENAP');
+} else {
+  alert(angka + ' adalah bilangan GANJIL');
+}
