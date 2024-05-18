@@ -251,11 +251,14 @@ while(kondisi){
 aksi
 }
 
+contoh condingan : 
 while(true){
 console.log('hello world');
 }
 
-
-condingan 
-1. console.log('hello world');
-2. 
+infinite loop /looping forever 
+var ulang = true;
+while(ulang){
+cosole.log('hello world');
+ulang = confirm('lagi?');
+}
