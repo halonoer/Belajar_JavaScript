@@ -243,3 +243,19 @@ if( angka % 2 === 0 ) {
 } else {
   alert(angka + ' adalah bilangan GANJIL');
 }
+
+.......
+pengulangan (while)
+
+while(kondisi){
+aksi
+}
+
+while(true){
+console.log('hello world');
+}
+
+
+condingan 
+1. console.log('hello world');
+2. 
