@@ -220,16 +220,37 @@ control flow
 - pengkodisian
 
 1. pengulangan (loop/iteration) : 
-- for
-- while
-- do while
+- for : for(inisialisasi; kondisi; increment/decrement)
+- while : inisialisasi; kondisi; increment
+- do while : inisialisasi; blok kode; kondisi;
 
 contoh : 
+- for : 
    alert('mulai');
    for(var i = 0; i < 5; i++){
    alert('hello world!');
    }
    alert('selesai');
+
+- while :
+  var number = 10;
+while (number > 1) {
+    number /= 2;
+    console.log(number);
+}
+
+- do while :
+1. 
+  do {
+    // kode yang akan dijalankan berulang kali
+} while (kondisi);
+2. 
+var i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 5);
+
 
 2. pengkondisian (percabangan) :
 - of
@@ -252,13 +273,175 @@ aksi
 }
 
 contoh condingan : 
+infinite loop /looping forever 
+
+dihentikan oleh user = 
+
 while(true){
 console.log('hello world');
 }
 
-infinite loop /looping forever 
+- 
+
 var ulang = true;
 while(ulang){
 cosole.log('hello world');
 ulang = confirm('lagi?');
 }
+
+dihentikan oleh program
+
+while (kondisi terminasi) {
+
+aksi
+
+increment / decrement
+}
+- 
+var nilaiAwal = 1;
+while(nilaiAwal <=5) {
+console.log('hello world' +nilaiAwal + 'x');
+nilaiAwal++;
+}
+- 
+var nilaiAwal = 1;
+while(nilaiAwal <= 10){
+    console.log('Angkot No. ' + nilaiAwal+ ' beroperasi dengan baik.' );
+    nilaiAwal++;
+}
+- 
+var jmlAngkot = 10;
+var noAngkot = 1;
+while(noAngkot <= jmlAngkot){
+console.log('Ankot No. '+ noAngkot + 'beropearsi dengan baik.');
+noAngkot++;
+}
+
+..................
+var jmlAngkot = 10;
+var angkotBeroperasi = 8;
+var noAngkot = 1;
+
+while(noAngkot <= angkotBeroperasi) {
+console.log('Angkot no. ' + noAngkot + 'beroperasi dengan baik');
+noAngkot++;
+}
+
+for (noAngkot = angkotBeropasi + 1 ; noAngkot <= jmlAngkot; noAngkot++;){
+console.log('Angkot No. ' + noAngkot + 'sedang tidak beroperasi.');
+}
+
+
+......................
+
+if
+1. 
+if (kondisi) {
+aksi (lakukan aksi jika kondisi bernilai true)
+}
+... (keluar dari blok jika kondisi bernilai false)
+
+
+contoh codingan :
+1. 
+var angka 2;
+if(angka < 5) {
+alert(angka + 'lebih kecil dari 5');
+}
+
+2. a
+var angka = 2;
+if(angka % 2 == 0) {
+alert(angka + 'adalah bilangan GENAP');
+}
+
+var angka = 2;
+if(angka % 2 == 1) {
+alert(angka + 'adalah bilangan GANJIL');
+}
+
+3.
+jika menggunakan else maka seperti ini
+var angka = prompt ('memasukkan angka:');
+if(angka % 2 == 0) {
+alert(angka + 'adalah bilangan GENAP');
+}else {
+alert(angka + 'adalah bilangan GANJIL');
+}
+
+4. 
+var jmlAngkot = 10;
+var angkotBeroperasi = 6;
+var noAngkot = 1;
+
+for(noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++){
+    if(noAngkot <= angkotBeroperasi){
+        console.log('Angkot no.' + noAngkot + ' sedang beroperasi');
+    }else{
+        console.log('Angkot no.' + noAngkot + ' tidak beroperasi')
+    }
+}
+
+5. 
+var angka = prompt ('memasukkan angka:');
+if(angka % 2 == 0) {
+alert(angka + 'adalah bilangan GENAP');
+}else if(angka % 2 === 1) {
+alert(angka + 'adalah bilangan GANJIL');
+} else {
+  alert('yang anda masukkan bukan angka!!');
+}
+
+6. 
+var jmlAngkot = 10;
+var angkotBeroperasi = 6;
+var noAngkot = 1;
+var angkotLembur = 8 || 10;
+
+for(noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++){
+    if(noAngkot <= angkotBeroperasi){
+        console.log('Angkot no.' + noAngkot + ' sedang beroperasi');
+    }else if(noAngkot === angkotLembur){
+        console.log('Angkot no.' + noAngkot + ' lembur');
+    } else {
+        console.log('Angkot no.' + noAngkot + ' tidak beroperasi');
+    }
+}
+
+7. 
+var jmlAngkot = 10;
+var angkotBeroperasi = 6;
+var noAngkot = 1;
+
+for(noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++){
+    if(noAngkot <= angkotBeroperasi){
+        console.log('Angkot no.' + noAngkot + ' sedang beroperasi');
+    }else if(noAngkot === 8 || noAngkot === 10){
+        console.log('Angkot no.' + noAngkot + ' lembur');
+    } else {
+        console.log('Angkot no.' + noAngkot + ' tidak beroperasi');
+    }
+}
+
+switch
+
+if(kondisi 1){
+aksi 1
+} else if(kondisi 2){
+aksi 3
+} ...
+else if(kondisi n){
+aksi n
+} else {
+aksi default
+}
+
+contoh : 
+1. 
+switch(ekspresi){
+case "nilai 1":
+aksi 1
+[break;]
+case "nilai 2" :
+
+
