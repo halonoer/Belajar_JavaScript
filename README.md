@@ -9,7 +9,21 @@ Youtube :
 - Web Programming UNPAS
 - Dea Afrizal
 
-JavaScript 
+#JavaScript
+
+JavaScript adalah bahasa pemrograman yang berbasis prototype, yang berarti objek dapat diwariskan lansung dari objek lain tanpa memerlukan kelas.
+
+Peulisan Dinamis : JavaScript memiliki tipe data dinamis yang memungkinkan variabel berubah jenis datanya saat program berjalan
+
+First-Class Function : Fungsi dalam JavaScript dianggap sebagai warga kelas satu (first-class Citizen), yang berarti fungsi dapat diperlukan sebagai Variabel, dapat diteruskan sebagai argumen, dana dapat dikembalikan oleh fungsi lain. ini mendukung konsep pemrograman fungsional.
+
+Multi-Paradigma : JavaScript mendukung berbagai paradigma pemrograman seperti : 
+- Object-Oriented Programming (OOP) : Pemrograman berorientasi objek, memungkinkan pengembangan menggunakan konsep seperti kelas dan object.
+- Imperatif : Gaya pemrograman yang berfokus pada perintah dan urutan langkah-langkah untuk mencapai suatu tujuan
+- Functional Programming : Gaya pemrograman yang menekankan pada penggunaan fungsi-fungsi, menghindari perubahan status dan data
+
+pengunaan yang luas : awalnya hanya web interaktif, namun sekarang digunakan dimana saja, seperti server(misal Node.JS), app Mobile, Desktop, bahkan IoT
+
 tipe data
 number, string, boolean, object, function, undefined
 
