@@ -159,9 +159,9 @@ var x; // deklarasi & inisialisasi
 x = 20; // assignment
 
 deklarasi variabel 
-var 
-let
-const
+1. var
+2. let
+3. const
 
 Dalam JavaScript, var, let, dan const digunakan untuk mendeklarasikan variabel. Masing-masing memiliki karakteristik yang berbeda terkait dengan cakupan (scope) dan kemampuan untuk diubah (mutability). Berikut adalah panduan kapan harus menggunakan masing-masing:
 
