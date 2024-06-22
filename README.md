@@ -47,7 +47,7 @@ angka spesial
 - NaN = 100 / "apel"
 
 operator
-operator dalam javasrcipt adalah sebuah simbol yang digunakan untuk melakukan operasi
+operator dalam javascript adalah sebuah simbol yang digunakan untuk melakukan operasi
 
 operator
 - aritmatika - binary
@@ -91,7 +91,7 @@ boolean : true dan false
 operator logika 
 - && : AND
 - || : OR
-- !  : NOT
+- ! - : NOT
 
 operator string 
 +
@@ -457,5 +457,43 @@ case "nilai 1":
 aksi 1
 [break;]
 case "nilai 2" :
+aksi 2
+[break;]
+case "nilai n":
+aksi n
+[break;]
+default:
+aksi default
+[break;]
+}
 
+contoh :
+var angka = prompt(masukkan angka :);
 
+if( angka == 1 ) {
+alert('anda memasukkan angka 1');
+} else if( angka ==2 ){
+alert('anda memasukkan angka 2');
+} else {
+alert('angka yang anda masukkan salah!);
+}
+
+------------------------------------------
+var angka = prompt('masukkan angka :');
+
+switch( angka ){
+case 1 :
+alert('anda memasukkan angka 1');
+break;
+case 2 :
+alert('anda memasukkan angka 2');
+break;
+case 3 : 
+alert('anda memasukkan angka 3');
+break;
+default :
+alert('angka yang anda masukkan salah');
+break;
+
+--------------------------------------------
+var item = 
