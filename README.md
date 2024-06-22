@@ -163,6 +163,27 @@ var
 let
 const
 
+Dalam JavaScript, var, let, dan const digunakan untuk mendeklarasikan variabel. Masing-masing memiliki karakteristik yang berbeda terkait dengan cakupan (scope) dan kemampuan untuk diubah (mutability). Berikut adalah panduan kapan harus menggunakan masing-masing:
+
+1. var
+   - Cakupan (Scope): Global atau fungsi. Jika dideklarasikan di luar fungsi, variabel akan memiliki cakupan global. Jika dideklarasikan di dalam fungsi, variabel akan memiliki cakupan fungsi.
+   - Hoisting: Dapat diakses sebelum deklarasinya karena di-hoist ke atas cakupan mereka dengan nilai undefined.
+   - Re-deklarasi: Bisa dideklarasikan ulang dalam cakupan yang sama.
+   - Penggunaan: Sebaiknya dihindari dalam kode modern. Digunakan dalam kode legacy atau saat benar-benar memahami dampaknya.
+     
+2. let
+   - Cakupan (Scope): Blok. Berlaku dalam blok {} di mana ia dideklarasikan.
+   - Hoisting: Tidak dapat diakses sebelum deklarasinya dalam blok yang sama (temporal dead zone).
+   - Re-deklarasi: Tidak bisa dideklarasikan ulang dalam cakupan yang sama.
+   - Penggunaan: Gunakan ketika Anda membutuhkan variabel yang dapat diubah nilainya (mutable) dalam cakupan blok tertentu.
+     
+3. const
+   - Cakupan (Scope): Blok. Berlaku dalam blok {} di mana ia dideklarasikan.
+   - Hoisting: Tidak dapat diakses sebelum deklarasinya dalam blok yang sama (temporal dead zone).
+   - Re-deklarasi: Tidak bisa dideklarasikan ulang dalam cakupan yang sama.
+   - Mutability: Nilai variabel tidak dapat diubah (immutable) setelah dideklarasikan, namun jika nilainya adalah objek atau array, properti atau elemen di dalamnya masih bisa diubah.
+   - Penggunaan: Gunakan ketika Anda membutuhkan variabel yang tidak berubah (immutable) setelah inisialisasi.
+
 var 
 var <nama variabel> 
 - ga boleh pake spasi, jika panjang maka dikasih _ / $ / panjang disambung
