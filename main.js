@@ -69,9 +69,27 @@ body.append("HELLO WORLD")
 // console.log(elements); // Mendapatkan semua elemen yang cocok dengan kelas 'myClass'
 
 
+// Membuat elemen <h1>
+// const nama = document.createElement('element')
 const h1 = document.createElement('h1')
-h1.textContent = 'ANJAY INI H1 BRO'
-h1.innerHTML = 'hihi'
-h1.innerText = 'haha'
+const haha = document.createElement('p')
+const hihi = document.createElement('b')
+
+// Mengatur textContent dari <h1> menjadi 'ANJAY INI H1 BRO'
+h1.textContent = 'ANJAY BRO'
+
+// Mengatur innerHTML dari <h1> menjadi 'hihi'
+// Ini akan menggantikan konten sebelumnya
+haha.innerHTML = 'hihi'
+
+// Mengatur innerText dari <h1> menjadi 'haha'
+// Ini akan menggantikan konten sebelumnya
+hihi.innerText = 'ANJAY'
+
+// Pada akhirnya, teks dalam elemen <h1> adalah 'haha'
+
+
 
 body.append(h1)
+body.append(haha)
+body.append(hihi)
