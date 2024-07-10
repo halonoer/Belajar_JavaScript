@@ -1,10 +1,9 @@
-console.log(document.title)
 document.title = 'noi'
 console.log(document.title)
 
-console.log(document.body)
-const body = document.body
-body.append("HELLO WORLD")
+// console.log(document.body)
+// const body = document.body
+// body.append("HELLO WORLD")
 
 // 1. document.title
 // Deskripsi: Ini adalah properti yang digunakan untuk mendapatkan atau mengatur judul dokumen. Judul ini adalah teks yang muncul di tab browser.
@@ -71,25 +70,51 @@ body.append("HELLO WORLD")
 
 // Membuat elemen <h1>
 // const nama = document.createElement('element')
-const h1 = document.createElement('h1')
-const haha = document.createElement('p')
-const hihi = document.createElement('b')
+// const h1 = document.createElement('h1')
+// const haha = document.createElement('p')
+// const hihi = document.createElement('b')
 
 // Mengatur textContent dari <h1> menjadi 'ANJAY INI H1 BRO'
-h1.textContent = 'ANJAY BRO'
+// h1.textContent = '<marquee>ANJAY BRO</marquee>'
 
 // Mengatur innerHTML dari <h1> menjadi 'hihi'
 // Ini akan menggantikan konten sebelumnya
-haha.innerHTML = 'hihi'
+// haha.innerHTML = '<marquee>hihi</marquee>'
 
 // Mengatur innerText dari <h1> menjadi 'haha'
 // Ini akan menggantikan konten sebelumnya
-hihi.innerText = 'ANJAY'
+// hihi.innerText = '<marquee>ANJAY</marquee>'
 
 // Pada akhirnya, teks dalam elemen <h1> adalah 'haha'
 
+// body.append(h1)
+// body.append(haha)
+// body.append(hihi)
 
+// getElementById hanya bisa memanggil id saja
+// didalam kurung tidak pakai .(class) atau #(id), tapi lansung aja karena khusus untuk id
+// querySelector universal
+// didalam kurung bisa .(class) atau #(id)
+const btn1 = document.getElementById('btn1')
+const btn2 = document.getElementById('btn2')
+const btn3 = document.querySelector('#btn3')
 
-body.append(h1)
-body.append(haha)
-body.append(hihi)
+btn1.style.border = 'none'
+btn1.style.padding = '8px'
+btn1.style.fontSize = '24px'
+btn1.style.background = 'blue'
+
+btn2.style.border = 'none'
+btn2.style.padding = '8px'
+btn2.style.fontSize = '24px'
+btn2.style.background = 'orange'
+
+btn3.style.border = 'none'
+btn3.style.padding = '8px'
+btn3.style.fontSize = '24px'
+btn3.style.background = 'green'
+btn3.style.margin = '1px'
+
+console.log(btn2)
+
+// 14:26
