@@ -98,39 +98,39 @@
 
 document.title = 'noi'
 // console.log(document.title)
-const btn1 = document.getElementById('btn1')
-btn1.style.border = 'none'
-btn1.style.padding = '8px'
-btn1.style.fontSize = '24px'
-btn1.style.background = 'blue'
+// const btn1 = document.getElementById('btn1')
+// btn1.style.border = 'none'
+// btn1.style.padding = '8px'
+// btn1.style.fontSize = '24px'
+// btn1.style.background = 'blue'
 
-const btn2 = document.getElementById('btn2')
-btn2.style.border = 'none'
-btn2.style.padding = '8px'
-btn2.style.fontSize = '24px'
-btn2.style.background = 'orange'
+// const btn2 = document.getElementById('btn2')
+// btn2.style.border = 'none'
+// btn2.style.padding = '8px'
+// btn2.style.fontSize = '24px'
+// btn2.style.background = 'orange'
 
-const btn3 = document.querySelector('#btn3')
-btn3.style.border = 'none'
-btn3.style.padding = '8px'
-btn3.style.fontSize = '24px'
-btn3.style.background = 'green'
-btn3.style.margin = '1px'
+// const btn3 = document.querySelector('#btn3')
+// btn3.style.border = 'none'
+// btn3.style.padding = '8px'
+// btn3.style.fontSize = '24px'
+// btn3.style.background = 'green'
+// btn3.style.margin = '1px'
 
-const body = document.body
-// body.append('hello world')
-const h1 = document.createElement('h1')
-h1.textContent = 'coba pake h1 di js'
+// const body = document.body
+// // body.append('hello world')
+// const h1 = document.createElement('h1')
+// h1.textContent = 'coba pake h1 di js'
 
-const kotasaya = document.createElement('b')
-kotasaya.innerText = 'Gresik'
+// const kotasaya = document.createElement('b')
+// kotasaya.innerText = 'Gresik'
 
-const kotakampus = document.createElement('p')
-kotakampus.innerHTML = '<marquee>Surabaya</marquee>'
+// const kotakampus = document.createElement('p')
+// kotakampus.innerHTML = '<marquee>Surabaya</marquee>'
 
-body.append(h1)
-body.append(kotasaya)
-body.append(kotakampus)
+// body.append(h1)
+// body.append(kotasaya)
+// body.append(kotakampus)
 
 
 // 14:26
